@@ -4,12 +4,18 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      child: Center(
-        child: Text(
-          'Login Page',
-          style: TextStyle(fontSize: 20, color: Colors.blue),
-        ),
-      ),
-    );
+        color: Colors.white,
+        child: Column(
+          children: [
+            Image.asset(
+              "assets/images/undraw_secure_login_pdn4.png",
+              fit: BoxFit.cover,
+            ),
+            Text(
+              'WELCOME',
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+            ),
+          ],
+        ));
   }
 }
