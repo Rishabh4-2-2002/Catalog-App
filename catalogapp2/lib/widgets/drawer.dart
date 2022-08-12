@@ -11,7 +11,7 @@ class MyDrawer extends StatelessWidget {
         color: Colors.deepPurple,
         child: ListView(
           padding: EdgeInsets.zero,
-          children: [
+          children: [ 
             DrawerHeader(
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(

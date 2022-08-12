@@ -1,4 +1,4 @@
-import 'package:catalogapp2/drawer.dart';
+import 'package:catalogapp2/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text('Catalog App'),
       ),
       body: Center(
